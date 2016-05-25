@@ -1,5 +1,5 @@
-keylight
-========
+msi-keylight
+============
 
 Control the lights of the MSI Steel series keyboard on Ubuntu (GE62).
 
@@ -7,16 +7,16 @@ Control the lights of the MSI Steel series keyboard on Ubuntu (GE62).
 
 Usage:
 ```
- java -jar Keylight.jar MLCLCLC
+ java -jar keylight.jar MLCLCLC
  
   M: Ledmode : 0..4 (normal,gaming,breathe,demo,wave)
-  L: Level :   0..3 (high,med,low,light)
-  C: Color :   0..8 (off,red,orange,yellow,green,light blue,blue,purple,white)
+  L: Level :   0..3 (high, med, low, glow)
+  C: Color :   0..8 (off, red, orange, yellow, green, light blue, blue, purple, white)
 ```
 
 Example: purple keyboard
 ```
- java -jar KeyLight.jar 0171717
+ java -jar keylight.jar 0171717
 ```
 
 Hardware check

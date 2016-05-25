@@ -50,13 +50,13 @@ public class KeyLight {
 
 	public static void main(String[] args) {
 		if ((args.length != 1) || (args[0].length() != 7)) {
-			System.out.println("Usage: java -jar Keylight.jar MLCLCLC");
+			System.out.println("Usage: java -jar keylight.jar MLCLCLC");
 			System.out.println(" M: Ledmode : 0..4 (normal,gaming,breathe,demo,wave)");
 			System.out.println(" L: Level :   0..3 (high,med,low,glow)");
 			System.out.println(" C: Color :   0..8 (off,red,orange,yellow,green,light blue,blue,purple,white)");
 			System.out.println("");
 			System.out.println("Example: purple keyboard");
-			System.out.println(" java -jar KeyLight.jar 0171717");
+			System.out.println(" java -jar keylight.jar 0171717");
 			System.exit(0);
 		}
 		int[] values = parse(args[0]);
