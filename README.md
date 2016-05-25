@@ -9,7 +9,7 @@ Usage:
 ```
  java -jar keylight.jar MLCLCLC
  
-  M: Ledmode : 0..4 (normal,gaming,breathe,demo,wave)
+  M: Ledmode : 0..4 (normal, gaming, breathe, fade, wave)
   L: Level :   0..3 (high, med, low, glow)
   C: Color :   0..8 (off, red, orange, yellow, green, light blue, blue, purple, white)
 ```

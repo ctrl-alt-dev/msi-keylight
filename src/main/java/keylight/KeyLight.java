@@ -51,7 +51,7 @@ public class KeyLight {
 	public static void main(String[] args) {
 		if ((args.length != 1) || (args[0].length() != 7)) {
 			System.out.println("Usage: java -jar keylight.jar MLCLCLC");
-			System.out.println(" M: Ledmode : 0..4 (normal,gaming,breathe,demo,wave)");
+			System.out.println(" M: Ledmode : 0..4 (normal,gaming,breathe,fade,wave)");
 			System.out.println(" L: Level :   0..3 (high,med,low,glow)");
 			System.out.println(" C: Color :   0..8 (off,red,orange,yellow,green,light blue,blue,purple,white)");
 			System.out.println("");
